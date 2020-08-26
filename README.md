@@ -1,6 +1,6 @@
 # SpatioTemporal Visual Storyteller (_STVS_)
 
-A work initially developed by @rendoir as its Master Thesis in Informatics and Computing Engineering @FEUP.
+A work initially developed by [Daniel Marques](https://github.com/rendoir) as its Master Thesis in Informatics and Computing Engineering @FEUP.
 
 <!-- Missing description of what it is and a print -->
 The __SpatioTemporal Visual Storyteller _(STVS)___ is a novel approach based on automated generation of interactive storyboards that summarize the evolution of a spatiotemporal phenomenon through a set of frames that represent the most relevant changes across all events of interest. The figures below depict an example of a spatiotemporal phenomenon visualized using the _STVS_.
