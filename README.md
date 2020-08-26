@@ -45,7 +45,7 @@ cd STVS/src/
 
 > __Important Note__: Tested and working on both Google Chrome and Mozilla Firefox. 
 
-# Extending and understanding S2VNC
+# Extending and understanding _STVS_
 
 For a guide on how to extend _STVS_ (e.g., supporting a new transformation), an overview of the codebase or a description of the application entry points, please refer to [this document](DOCUMENTATION.md).
 
