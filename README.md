@@ -1,8 +1,13 @@
-# Static Spatiotemporal Visual Narratives Composer (_S2VNC_)
+# SpatioTemporal Visual Storyteller (_STVS_)
 
 A work initially developed by @rendoir as its Master Thesis in Informatics and Computing Engineering @FEUP.
 
 <!-- Missing description of what it is and a print -->
+The __SpatioTemporal Visual Storyteller _(STVS)___ is a novel approach based on automated generation of interactive storyboards that summarize the evolution of a spatiotemporal phenomenon through a set of frames that represent the most relevant changes across all events of interest. The figures below depict an example of a spatiotemporal phenomenon visualized using the _STVS_.
+
+| Storyboard example | Settings example |
+|:-:|:-:|
+| <img width="1410" alt="Screenshot 2020-08-26 at 13 38 10" src="https://user-images.githubusercontent.com/22712373/91306759-e6bcb100-e7a4-11ea-9a42-10bc71d76657.png"> | <img width="1391" alt="Screenshot 2020-08-26 at 13 38 28" src="https://user-images.githubusercontent.com/22712373/91306763-ea503800-e7a4-11ea-8408-983aea34f594.png"> |
 
 # Getting Started
 
@@ -12,8 +17,8 @@ To run the application make sure you have `docker` and `docker-compose` installe
 
 1. Clone the repository
 ```shell
-git clone https://github.com/rendoir/feup-thesis.git
-cd S2VNC/src/
+git clone https://github.com/rendoir/STVS.git
+cd STVS/src/
 ```
 
 2. Run the application
@@ -42,4 +47,6 @@ cd S2VNC/src/
 
 # Extending and understanding S2VNC
 
-For a guide on how to extend _S2VNC_ (e.g., supporting a new transformation), an overview of the codebase or a description of the application entry points, please refer to [this document](DOCUMENTATION.md).
+For a guide on how to extend _STVS_ (e.g., supporting a new transformation), an overview of the codebase or a description of the application entry points, please refer to [this document](DOCUMENTATION.md).
+
+A more thorough description of the _STVS_ is available at Chapter 4 and 5 of the [__associated Master Thesis__](https://repositorio-aberto.up.pt/handle/10216/128548).  

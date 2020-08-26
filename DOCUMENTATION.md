@@ -1,3 +1,15 @@
+# Application architecture
+
+The architecture of the application loosely follows the Model-View-Controller (MVC) software architectural pattern (as shwon below). The difference between the developed architecture and the traditional MVC pattern is the update bypass from the Controller to the View, enabling updating some aspects of the view that are not related to the model.
+
+<img width="954" alt="Screenshot 2020-08-26 at 15 47 50" src="https://user-images.githubusercontent.com/22712373/91318756-81bc8780-e7b3-11ea-94bc-a310a45831b9.png">
+
+## Model component UML diagram
+
+<img width="894" alt="Screenshot 2020-08-26 at 15 46 58" src="https://user-images.githubusercontent.com/22712373/91318676-6487b900-e7b3-11ea-9652-6828399c7d33.png">
+
+The UML Diagram displayed above presents the most important aspects of the Model component of the MVC architecture. Each _Frame_ stores its time interval under the form of two timestamps and a reference to an _Object_ and to a _Transformation_. The object is essentially a set of _ObjectStates_ which represent the geometry (vertices list) of the spatiotemporal phenomenon at a certain timestamp within the frame’s time interval. The _Transformation_ is abstract and conceptually establishes a relationship of inheritance with each of the concrete transformations (e.g., Visualization Prototype rotation) and enables extracting common logic across transformations into the parent class. Furthermore, it allows supporting more transformations in the future without drastically changing the remaining architecture
+
 # Aplication's Entry Point
 The application's entry point is located in `main.js`. There are three types of entry points:
 1. `Loader.LoadFramesDemo`: Loads hardcoded frames from a Javascript file which uses the current API to construct the frames. This entry point is generally used for unit testing. Example: `src/js/demos/demo1.js`.
