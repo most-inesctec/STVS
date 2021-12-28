@@ -49,4 +49,8 @@ cd STVS/src/
 
 For a guide on how to extend _STVS_ (e.g., supporting a new transformation), an overview of the codebase or a description of the application entry points, please refer to [this document](DOCUMENTATION.md).
 
-A more thorough description of the _STVS_ is available at Chapter 4 and 5 of the [__associated Master Thesis__](https://repositorio-aberto.up.pt/handle/10216/128548).  
+A more thorough description of the _STVS_ is available at Chapter 4 and 5 of the [__associated Master Thesis__](https://repositorio-aberto.up.pt/handle/10216/128548). 
+
+# Acknowledgements
+
+The author thank ERDF – European Regional Development Fund through the Operational Programme for Competitiveness and Internationalisation - COMPETE 2020 Programme and by National Funds through the Portuguese funding agency, FCT – Fundac¸ ˜ao para a Ciˆencia e a Tecnologia within project PTDC/CCI-INF/32636/2017 (POCI-01-0145-FEDER-032636).
